@@ -28,7 +28,7 @@ namespace MyCalculatorv1
             }
             catch (Exception exc)
             {
-                tb.Text = "Error!";
+                tb.Text = "Try again!";
             }
         }
 
