@@ -95,6 +95,10 @@ namespace MyCalculatorv1
             {
                 tb.Text = tb.Text.Substring(0, tb.Text.Length - 1);
             }
+            else
+            {
+                tb.Text = "Nothing";
+            }
         }
     }
 }
